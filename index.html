@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOW DO MILHÃO</title>
+    <link type="text/css" rel="stylesheet" href="css/estilos.css" />
+    <script type="text/javascript" src="js/comportamentos.js"></script>
+</head>
+
+<body>
+
+    <main>
+        <fieldset>
+            <legend>
+                <img src="img/logo.jpg" />
+            </legend>
+                    <section id="comecar">
+                        <button id="btn-comecar">Começar a Jogar!</button>
+                    </section>
+                    <section id="lista-perguntas">
+                        <div id="pergunta1000" class="pergunta">
+                            <form id="form-pergunta1000">
+                                <p>Capixaba, é a denominação de quem nasce em qual estado brasileiro?</p>
+                                <ul>
+                                    <li>
+                                        <label>
+                                            <span>1</span> <input type="radio" name="pergunta1000" value="1" />
+                                            Rio Grande do Norte
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <span>2</span> <input type="radio" name="pergunta1000" value="2" />
+                                            Santa Carina
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <span>3</span> <input type="radio" name="pergunta1000" value="3" />
+                                            Espírito Santo
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <span>4</span> <input type="radio" name="pergunta1000" value="4" />
+                                            Paraíba
+                                        </label>
+                                    </li>
+                                </ul>
+                                <button type="submit">Valendo 1000</button>
+                            </form>
+                        </div>
+
+                        <div id="pergunta2000" class="pergunta">
+                            <form id="form-pergunta2000">
+                                <p>De quem é a frase, penso logo existo?</p>
+                                <ul>
+                                    <li>
+                                        <label>
+                                            <span>1</span> <input type="radio" name="pergunta1000" value="1" />
+                                            Platão
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <span>2</span> <input type="radio" name="pergunta1000" value="2" />
+                                            Júlio Verne
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <span>3</span> <input type="radio" name="pergunta1000" value="3" />
+                                            Aristóteles
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <span>4</span> <input type="radio" name="pergunta1000" value="4" />
+                                            René Descartes
+                                        </label>
+                                    </li>
+                                </ul>
+                                <button type="submit">Valendo 2000</button>
+                            </form>
+                        </div>
+                    </section>
+                    
+                    <!-- Rodada 2: Perguntas Médias -->
+                    <section id="rodada2" class="rodada" style="display:none;">
+                        <div id="pergunta10000" class="pergunta">
+                            <form id="form-pergunta10000">
+                                <p>Pergunta de R$10.000</p>
+                                <ul>
+                                    <li><label><span>1</span> <input type="radio" name="pergunta10000" value="1" />Resposta 1</label></li>
+                                    <li><label><span>2</span> <input type="radio" name="pergunta10000" value="2" />Resposta 2</label></li>
+                                    <li><label><span>3</span> <input type="radio" name="pergunta10000" value="3" />Resposta 3</label></li>
+                                    <li><label><span>4</span> <input type="radio" name="pergunta10000" value="4" />Resposta 4</label></li>
+                                </ul>
+                                <button>Confirmar</button>
+                            </form>
+                        </div>
+                        <div id="pergunta20000" class="pergunta">
+                            <form id="form-pergunta20000">
+                                <p>Pergunta de R$20.000</p>
+                                <ul>
+                                    <li><label><span>1</span> <input type="radio" name="pergunta20000" value="1" />Resposta 1</label></li>
+                                    <li><label><span>2</span> <input type="radio" name="pergunta20000" value="2" />Resposta 2</label></li>
+                                    <li><label><span>3</span> <input type="radio" name="pergunta20000" value="3" />Resposta 3</label></li>
+                                    <li><label><span>4</span> <input type="radio" name="pergunta20000" value="4" />Resposta 4</label></li>
+                                </ul>
+                                <button>Confirmar</button>
+                            </form>
+                        </div>
+                        <div id="pergunta30000" class="pergunta">
+                            <form id="form-pergunta30000">
+                                <p>Pergunta de R$30.000</p>
+                                <ul>
+                                    <li><label><span>1</span> <input type="radio" name="pergunta30000" value="1" />Resposta 1</label></li>
+                                    <li><label><span>2</span> <input type="radio" name="pergunta30000" value="2" />Resposta 2</label></li>
+                                    <li><label><span>3</span> <input type="radio" name="pergunta30000" value="3" />Resposta 3</label></li>
+                                    <li><label><span>4</span> <input type="radio" name="pergunta30000" value="4" />Resposta 4</label></li>
+                                </ul>
+                                <button>Confirmar</button>
+                            </form>
+                        </div>
+                        <div id="pergunta40000" class="pergunta">
+                            <form id="form-pergunta40000">
+                                <p>Pergunta de R$40.000</p>
+                                <ul>
+                                    <li><label><span>1</span> <input type="radio" name="pergunta40000" value="1" />Resposta 1</label></li>
+                                    <li><label><span>2</span> <input type="radio" name="pergunta40000" value="2" />Resposta 2</label></li>
+                                    <li><label><span>3</span> <input type="radio" name="pergunta40000" value="3" />Resposta 3</label></li>
+                                    <li><label><span>4</span> <input type="radio" name="pergunta40000" value="4" />Resposta 4</label></li>
+                                </ul>
+                                <button>Confirmar</button>
+                            </form>
+                        </div>
+                        <div id="pergunta50000" class="pergunta">
+                            <form id="form-pergunta50000">
+                                <p>Pergunta de R$50.000</p>
+                                <ul>
+                                    <li><label><span>1</span> <input type="radio" name="pergunta50000" value="1" />Resposta 1</label></li>
+                                    <li><label><span>2</span> <input type="radio" name="pergunta50000" value="2" />Resposta 2</label></li>
+                                    <li><label><span>3</span> <input type="radio" name="pergunta50000" value="3" />Resposta 3</label></li>
+                                    <li><label><span>4</span> <input type="radio" name="pergunta50000" value="4" />Resposta 4</label></li>
+                                </ul>
+                                <button>Confirmar</button>
+                            </form>
+                        </div>
+                    </section>
+                    
+                    <!-- Rodada 3: Perguntas Difíceis -->
+                    <section id="rodada3" class="rodada" style="display:none;">
+                        <div id="pergunta100000" class="pergunta">
+                            <form id="form-pergunta100000">
+                                <p>Pergunta de R$100.000</p>
+                                <ul>
+                                    <li><label><span>1</span> <input type="radio" name="pergunta100000" value="1" />Resposta 1</label></li>
+                                    <li><label><span>2</span> <input type="radio" name="pergunta100000" value="2" />Resposta 2</label></li>
+                                    <li><label><span>3</span> <input type="radio" name="pergunta100000" value="3" />Resposta 3</label></li>
+                                    <li><label><span>4</span> <input type="radio" name="pergunta100000" value="4" />Resposta 4</label></li>
+                                </ul>
+                                <button>Confirmar</button>
+                            </form>
+                        </div>
+                        <div id="pergunta200000" class="pergunta">
+                            <form id="form-pergunta200000">
+                                <p>Pergunta de R$200.000</p>
+                                <ul>
+                                    <li><label><span>1</span> <input type="radio" name="pergunta200000" value="1" />Resposta 1</label></li>
+                                    <li><label><span>2</span> <input type="radio" name="pergunta200000" value="2" />Resposta 2</label></li>
+                                    <li><label><span>3</span> <input type="radio" name="pergunta200000" value="3" />Resposta 3</label></li>
+                                    <li><label><span>4</span> <input type="radio" name="pergunta200000" value="4" />Resposta 4</label></li>
+                                </ul>
+                                <button>Confirmar</button>
+                            </form>
+                        </div>
+                        <div id="pergunta300000" class="pergunta">
+                            <form id="form-pergunta300000">
+                                <p>Pergunta de R$300.000</p>
+                                <ul>
+                                    <li><label><span>1</span> <input type="radio" name="pergunta300000" value="1" />Resposta 1</label></li>
+                                    <li><label><span>2</span> <input type="radio" name="pergunta300000" value="2" />Resposta 2</label></li>
+                                    <li><label><span>3</span> <input type="radio" name="pergunta300000" value="3" />Resposta 3</label></li>
+                                    <li><label><span>4</span> <input type="radio" name="pergunta300000" value="4" />Resposta 4</label></li>
+                                </ul>
+                                <button>Confirmar</button>
+                            </form>
+                        </div>
+                        <div id="pergunta400000" class="pergunta">
+                            <form id="form-pergunta400000">
+                                <p>Pergunta de R$400.000</p>
+                                <ul>
+                                    <li><label><span>1</span> <input type="radio" name="pergunta400000" value="1" />Resposta 1</label></li>
+                                    <li><label><span>2</span> <input type="radio" name="pergunta400000" value="2" />Resposta 2</label></li>
+                                    <li><label><span>3</span> <input type="radio" name="pergunta400000" value="3" />Resposta 3</label></li>
+                                    <li><label><span>4</span> <input type="radio" name="pergunta400000" value="4" />Resposta 4</label></li>
+                                </ul>
+                                <button>Confirmar</button>
+                            </form>
+                        </div>
+                        <div id="pergunta500000" class="pergunta">
+                            <form id="form-pergunta500000">
+                                <p>Pergunta de R$500.000</p>
+                                <ul>
+                                    <li><label><span>1</span> <input type="radio" name="pergunta500000" value="1" />Resposta 1</label></li>
+                                    <li><label><span>2</span> <input type="radio" name="pergunta500000" value="2" />Resposta 2</label></li>
+                                    <li><label><span>3</span> <input type="radio" name="pergunta500000" value="3" />Resposta 3</label></li>
+                                    <li><label><span>4</span> <input type="radio" name="pergunta500000" value="4" />Resposta 4</label></li>
+                                </ul>
+                                <button>Confirmar</button>
+                            </form>
+                        </div>
+                    </section>
+                    
+                    <!-- Final -->
+                    <section id="final" class="rodada" style="display:none;">
+                        <div id="pergunta1000000" class="pergunta">
+                            <form id="form-pergunta1000000">
+                                <p>Pergunta Final de R$1.000.000</p>
+                                <ul>
+                                    <li><label><span>1</span> <input type="radio" name="pergunta1000000" value="1" />Resposta 1</label></li>
+                                    <li><label><span>2</span> <input type="radio" name="pergunta1000000" value="2" />Resposta 2</label></li>
+                                    <li><label><span>3</span> <input type="radio" name="pergunta1000000" value="3" />Resposta 3</label></li>
+                                    <li><label><span>4</span> <input type="radio" name="pergunta1000000" value="4" />Resposta 4</label></li>
+                                </ul>
+                                <button>Confirmar</button>
+                            </form>
+                        </div>
+                    </section>
+                </fieldset>
+    </main>
+    <audio id="silvio-santos" />
+    <p>Obrigado por jogar!</p>
+    </footer>
+</body>
+</html>
